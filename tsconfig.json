@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "experimentalDecorators": true,  // Required for decorators
+    "emitDecoratorMetadata": true,   // Required for metadata reflection
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
